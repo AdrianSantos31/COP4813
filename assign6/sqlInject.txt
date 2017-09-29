@@ -1,0 +1,1 @@
+The ways I addressed SQL Injections were through using prepared statements with mySQLi Queries and using data validation techniques which do not allow users to enter empty fields.

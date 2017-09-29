@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics Calculator</title>
+    <!--Style CSS-->
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Icon-->
+    <link rel="icon" href="https://lh3.ggpht.com/7B2IoeJhz_RdHhJm6WNhAfbnL3HTyqdtNDI-291PRIASGESP2oxTkMYtMrww2u9L__c=w300">
+    <!--Reset JS-->
+    <script src="js/resetForm.js"></script>
+    <!--Reset JS-->
+    <script src="js/clearField.js"></script>
+    <!--Statistics JS-->
+    <script src="js/Statistics.js"></script>
+    <!--Custom jQuery-->
+    <script src="js/jQuery.js"></script>
+    <!--Clipboard-->
+    <!-- <script src="js/custClip.js"></script> -->
+  </head>
+
+  <body>
+    <div ng-app="">
+      <div class="title-container heading">
+        <h1>Statistics Calculator</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <h3>This is a statistics calculator. You can paste or input numbers separated by <b>commas</b>. This performs several statistical calculations such as median, mode, mean and etc.</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-8" id="no-overflow">
+            <div class="form-group">
+
+              <label for="comment">Paste or Input numbers inside the textbox: </label>
+              <form id="myForm">
+                <textarea class="form-control" rows="8" id="input" placeholder="Please put numbers separated by commas (i.e. 1,2,3,4,5)."></textarea>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12">
+                <button type="button" class="btn btn-block btn-success" onclick="calculate()" id="calculate">
+                <span class="glyphicon glyphicon-send " aria-hidden="true"></span> Calculate
+              </button>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-md-12">
+                <button type="button" class="btn btn-block btn-warning" onclick="clearField()" id="clearField">
+                <span class="glyphicon glyphicon-edit " aria-hidden="true"></span> Clear Field
+              </button>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-md-12">
+                <button type="button" class="btn btn-block btn-danger" onclick="resetForm()" id="reset">
+            <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>   Reset
+              </button>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-md-12">
+                <button type="button" class="btn btn-info btn-block" id="showUnitTesting">
+              <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Show Unit Testing
+            </button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <button type="button" class="btn btn-block btn-secondary" id="hideUnitTesting">
+                <span class="glyphicon glyphicon-minus" aria-hidden="true"></span> Hide Unit Testing
+            </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="result">
+          <h4>Results</h4>
+          <table class="table table-hover">
+            <thead class="head-decorate">
+              <tr>
+                <td>#</td>
+                <td>Array Size</td>
+                <td>Summation</td>
+                <td>Mean</td>
+                <td>Median</td>
+                <td>Mode</td>
+                <td>Variance</td>
+                <td>Standard Deviation</td>
+              </tr>
+            </thead>
+            <tbody id="answers">
+            </tbody>
+          </table>
+        </div>
+        <div class="row" id="unitTesting">
+          <h4>Unit Testing</h4>
+          <table class="table table-hover">
+            <thead class="head-decorate">
+              <tr>
+                <td>#</td>
+                <td>Array Size</td>
+                <td>Summation</td>
+                <td>Mean</td>
+                <td>Median</td>
+                <td>Mode</td>
+                <td>Variance</td>
+                <td>Standard Deviation</td>
+              </tr>
+            </thead>
+            <tbody id="answers">
+            </tbody>
+          </table>
+        </div>
+        <br>
+        <div class="row">
+          <a href="../index.html">
+            <button type="button" class="btn btn-primary btn-lg btn-block">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Back to E-Portfolio
+            </button>
+          </a>
+        </div>
+        <br>
+      </div>
+    </div>
+  </body>
+
+</html>

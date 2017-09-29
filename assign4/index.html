@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset=utf-8>
+    <title>Canvas Animation</title>
+    <!--Style CSS-->
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Icon-->
+    <link rel="icon" href="https://lh3.ggpht.com/7B2IoeJhz_RdHhJm6WNhAfbnL3HTyqdtNDI-291PRIASGESP2oxTkMYtMrww2u9L__c=w300">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/assign4.css">
+  </head>
+
+  <body>
+    <div class="title-container heading">
+      <h1>Animation</h1>
+    </div>
+    <div id="coverAll">
+      <div id="coverCanvas" class="row">
+      </div>
+      <div id="imAdrian" class="row">
+      </div>
+      <div id="text-top" class="row">
+        <br>
+        <br>
+        <h1 class="myTitle" id="myName">How a lightbulb works</h1>
+        <h4 class="myTitle" id="myTag">Adrian Santos</h4>
+      </div>
+      <br>
+      <br>
+      <div align="center" id="canvas-contain">
+
+        <canvas id="myCanvas"></canvas>
+      </div>
+    </div>
+    <br>
+    <div class="row" id="steps">
+      <div id="step1">
+        Step 1: Turn the switch on
+      </div>
+      <div id="step2">
+        Step 2: Electricity flows through
+      </div>
+      <div id="step3">
+        Step 3: Light emits
+      </div>
+      <div id="step4">
+        Step 4: Turn the switch off
+      </div>
+      <audio id="switch" src="media/switch.mp3" type="audio/mpeg">
+        <audio id="electric" src="media/electric.mp3" type="audio/mpeg">
+          <audio id="lightbulb" src="media/lightbulb.mp3" type="audio/mpeg">
+            <audio id="bass" src="media/bass.mp3" type="audio/mpeg">
+
+    </div>
+    <br>
+    <div class="row">
+      <a href="../index.html">
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="backPort">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Back to E-Portfolio
+            </button>
+      </a>
+    </div>
+
+
+    <script src="js/animation.js"></script>
+
+    <script src="js/custom.js"></script>
+  </body>
+
+</html>

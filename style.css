@@ -1,0 +1,375 @@
+/* main div container*/
+
+.container {
+  font-family: "Calibri"
+}
+
+body {
+  background-image: url('http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg');
+}
+
+.heading {
+  text-align: center;
+}
+
+a:hover {
+  color: #00f6ff;
+}
+
+p {
+  font-family: "Calibri";
+  color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Calibri";
+}
+
+ul {
+  list-style: circle;
+  position: inherit;
+}
+
+hr {
+  color: green;
+}
+
+
+/* Heading Container*/
+
+.title-container {
+  background: #013f70;
+  overflow: hidden;
+  background: -moz-linear-gradient(left, #013f70 17%, #1f89c5 82%);
+  background: -webkit-linear-gradient(left, #013f70 17%, #1f89c5 82%);
+  background: -o-linear-gradient(left, #013f70 17%, #1f89c5 82%);
+  background: -ms-linear-gradient(left, #013f70 17%, #1f89c5 82%);
+  background: linear-gradient(to right, #013f70 17%, #1f89c5 82%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#013f70', endColorstr='#1f89c5', GradientType=1);
+  color: white;
+}
+
+
+/*cv picture*/
+
+#cvpicture {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+
+/*table*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, td, th {
+  text-align: left;
+}
+
+th, td {
+  padding: 15px;
+}
+
+th {
+  background-color: #0a5589;
+  color: white;
+}
+
+.table-title {
+  text-align: center;
+}
+
+tr {}
+
+
+/*tr:nth-child(even) {
+  background-color: #f2f2f2
+}*/
+
+
+/*e-portfolio table*/
+
+#accordion {
+  background-color: #dee0e2;
+  border-radius: 25px;
+}
+
+.paragraph-container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.h3-portfolio {
+  text-align: center;
+  font-size: 30px;
+}
+
+.th-portfolio {
+  background-color: #0a5589;
+  height: 50px;
+}
+
+.th-portfolio:hover {
+  background: #013f70;
+  background: -moz-linear-gradient(left, #013f70 17%, #1f89c5 82%);
+  background: -webkit-linear-gradient(left, #013f70 17%, #1f89c5 82%);
+  background: -o-linear-gradient(left, #013f70 17%, #1f89c5 82%);
+  background: -ms-linear-gradient(left, #013f70 17%, #1f89c5 82%);
+  background: linear-gradient(to right, #013f70 17%, #1f89c5 82%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#013f70', endColorstr='#1f89c5', GradientType=1);
+}
+
+.header-portfolio-link {
+  color: white;
+}
+
+.paragraph-divider {
+  border-color: black;
+  border-width: medium;
+}
+
+.portfolio-back-link {
+  font-size: 30px;
+}
+
+
+/* links */
+
+.links:hover {
+  color: white;
+}
+
+.links:active {
+  color: white;
+}
+
+#ospreylogo {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.form-container {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  font-family: "Calibri"
+}
+
+
+/* ALERTS */
+
+#firstNameValidate {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border-radius: 10px;
+  text-align: center;
+  border-color: red;
+  border-width: thick;
+  /*background-image: url('assign2/media/warning.png');*/
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+#lastNameValidate {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border-radius: 10px;
+  text-align: center;
+  border-color: red;
+  border-width: thick;
+  /*background-image: url('assign2/media/warning.png');*/
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+#phoneNumberValidate {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border-radius: 10px;
+  text-align: center;
+  border-color: red;
+  border-width: thick;
+  /*background-image: url('assign2/media/warning.png');*/
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+#emailValidate {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border-radius: 10px;
+  text-align: center;
+  border-color: red;
+  border-width: thick;
+  /*background-image: url('assign2/media/warning.png');*/
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+#ticketValidate {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border-radius: 10px;
+  text-align: center;
+  border-color: red;
+  border-width: thick;
+  /*background-image: url('assign2/media/warning.png');*/
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+
+/* Error Window */
+
+#error {
+  color: #D8000C;
+  background-color: #FFBABA;
+  /*background-image: url('assign2/media/warning.png');*/
+  border: 1px solid;
+  margin: 10px 0px;
+  padding: 15px 10px 15px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#output {}
+
+#output-table {
+  border-color: 1px solid black;
+  border-radius: 5px;
+}
+
+.form-table {
+  background-color: black;
+}
+
+.form-table.td:hover {
+  background-color: none;
+}
+
+.hideMe {
+  visibility: hidden;
+}
+
+.hideValidate {
+  visibility: hidden;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.button-danger {
+  background-color: #f44336;
+}
+
+.button-success {
+  background-color: #4CAF50;
+}
+
+.button-info {
+  background-color: #008CBA;
+}
+
+.button-black {
+  background-color: #555555;
+}
+
+#button-flowchart {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.flowchart-container {
+  text-align: center;
+}
+
+#mainTable, .mainTableData, .mainTableRow {
+  border-style: groove;
+}
+
+.mainTableHeader {
+  visibility: hidden;
+  height: 0px;
+}
+
+.removeMe {
+  visibility: hidden;
+}
+
+
+/* Assignment 3 */
+
+#no-overflow {
+  overflow-x: hidden;
+}
+
+#input {
+  resize: none;
+}
+
+.head-decorate {
+  background: #013f70;
+  background: -moz-linear-gradient(left, #013f70 17%, #1f89c5 82%);
+  background: -webkit-linear-gradient(left, #013f70 17%, #1f89c5 82%);
+  background: -o-linear-gradient(left, #013f70 17%, #1f89c5 82%);
+  background: -ms-linear-gradient(left, #013f70 17%, #1f89c5 82%);
+  background: linear-gradient(to right, #013f70 17%, #1f89c5 82%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#013f70', endColorstr='#1f89c5', GradientType=1);
+  color: white;
+  border-radius: 10%;
+}
+
+.showUTClick {
+  background-color: #ff1493;
+  color: white;
+}
+
+.showUTClick:hover {
+  color: white;
+}
+
+.excel {
+  color: #299617;
+}
+
+.sticky{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
