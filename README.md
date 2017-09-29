@@ -2,6 +2,7 @@
 These are the projects for COP4813 (Internet Programming).
 
 |-------------CLIENT SIDE Processing--------------------------|
+
 Assignment 1 (Introduction)
 - Introduce yourself using html elements
 - HTML, CSS
@@ -19,7 +20,8 @@ Assignment 4 (HTML Canvas)
 - Made an animation using Canvas
 - HTML, CSS, JS, Bootstrap
 
--------------SERVER SIDE Processing--------------------------
+|-------------SERVER SIDE Processing--------------------------|
+
 Assignment 5 (Stocks Manager)
 - Made a portfolio manager. I also added a Widget which uses Technical Analysis.
 - HTML, CSS, JS, Bootstrap, PHP, Yahoo Finance API, jQuery
