@@ -1,7 +1,7 @@
 # COP4813
 These are the projects for COP4813 (Internet Programming).
 
--------------CLIENT SIDE Processing--------------------------\n
+|-------------CLIENT SIDE Processing--------------------------|
 Assignment 1 (Introduction)
 - Introduce yourself using html elements
 - HTML, CSS
